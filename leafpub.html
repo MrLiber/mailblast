@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<!--让 IE 浏览器运行最新的渲染模式-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Leafpub</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<script type="application/javascript" src="js/jquery.1.12.js"></script>
+		<script language="JavaScript" src="js/bootstrap.min.js"></script>
+		<style type="text/css">
+			.navbar {
+				padding-left: 127px;
+				border: 0;
+				border-radius: 0;
+				width: 100%;
+				margin-bottom: 0;
+			}
+			
+			#logo {
+				height: 36px;
+				margin-top: -6px;
+			}
+			
+			#banner {
+				width: 100%;
+				height: 236px;
+				background: url(img/leafpub/blue-circles.svg);
+				background-size: 3000px;
+				margin-bottom: 30px;
+			}
+			
+			#simple {
+				margin-top: 66px;
+				text-align: center;
+				color: #fff;
+			}
+			
+			#state {
+				text-align: center;
+				color: #fff;
+			}
+			
+			#btn-box {
+				text-align: center;
+			}
+			
+			@media (max-width: 768px) {
+				.navbar {
+					padding-left: 12px;
+				}
+				#logo {
+					height: 30px;
+					margin-top: -6px;
+				}
+				#banner {
+					width: 100%;
+					height: 256px;
+					background: url(img/leafpub/blue-circles.svg);
+					background-size: 3000px;
+					margin-bottom: 30px;
+				}
+				#simple {
+					margin-top: 76px;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-inverse" role="navigation">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+		         <span class="sr-only">切换导航</span>
+		         <span class="icon-bar"></span>
+		         <span class="icon-bar"></span>
+		         <span class="icon-bar"></span>
+		      </button>
+				<a class="navbar-brand" href="#"><img src="img/leafpub/logo-1.png" id="logo" /></a>
+			</div>
+			<div class="collapse navbar-collapse" id="example-navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="#">
+							<ios>Home</ios>
+						</a>
+					</li>
+					<li>
+						<a href="#">About</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							Contact <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">PHP</a>
+							</li>
+							<li>
+								<a href="#">Java</a>
+							</li>
+							<li>
+								<a href="#">JS</a>
+							</li>
+							<li class="divider"></li>
+							<li>
+								<a href="#">More</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container-fluid" id="banner">
+			<h1 id="simple">Simplely Publishing</h1>
+			<p id="state">
+				An open blogging platform with inline editing,handlebar templates,and a beautiful user interface.
+			</p>
+			<div id="btn-box">
+				<button type="button" class="btn btn-danger">登录</button>
+				<button type="button" class="btn btn-success">注册</button>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="editing">
+						<h3>Inline Editing</h3>
+						<span>
+					      	The first open source publishing plateform to feature inline editing.
+					      	No more forms or richtext editors.It's the most immersive editing 
+					      	experience you'll ever have!
+					      </span>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="editing">
+						<h3>Inline Editing</h3>
+						<span>
+					      	The first open source publishing plateform to feature inline editing.
+					      	No more forms or richtext editors.It's the most immersive editing 
+					      	experience you'll ever have!
+					     </span>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="editing">
+						<h3>Inline Editing</h3>
+						<span>
+					      	The first open source publishing plateform to feature inline editing.
+					      	No more forms or richtext editors.It's the most immersive editing 
+					      	experience you'll ever have!
+					     </span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>

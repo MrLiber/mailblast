@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>rem布局</title>
+		<style>
+			/*rem是根据html元素的fontsize值进行动态计算*/
+			html{
+				font-size: 100px;/*1rem=100px*/
+			}
+			html,body{
+				width: 100%;
+				height: 100%;
+			}
+			
+			.box{
+				height: 1rem;
+				margin: 0 1.8rem;
+				/*height:3rem*/
+				background: darkgreen;
+				background: url(img/qp_new_1.jpg) no-repeat;
+				background-size: 100% 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="con">
+			<div class="box"></div>
+		</div>
+		
+	<script>
+		~function (){
+			var desW = 640,
+				winW = document.documentElement.clientWidth,
+				n = winW / desW;
+			var con = document.getElementById('con');
+			if(winW>desW){
+				con.style.width=desW+'px';
+				con.style.margin='0 auto';
+				return;
+			}
+			document.documentElement.style.fontsize = n * 100 + 'px';
+		}();
+	</script>
+	</body>
+</html>

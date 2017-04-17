@@ -1,0 +1,89 @@
+@import url("reset.css");
+
+.navbar.navbar-transparent {
+    background-color: transparent;
+    box-shadow: none;
+    
+}
+
+.container {
+	padding: 10px 0;
+    background: #03a9f4;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #03a9f4;
+}
+
+.dropdown-menu li>a {
+    font-size: 13px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 2px;
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;
+    
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #03a9f4; 
+    border-color: #337ab7;
+}
+
+.dropdown-menu li>a:hover{
+	background-color: #03a9f4;
+}
+
+.container a{
+	color: #fff;
+	background-color: transparent;
+}
+
+.hero {
+    background-color: #03a9f4;
+    color: #fff;
+    min-height: 300px;
+    padding: 100px 0;
+}
+
+.hero__text{
+	text-align: left;
+}
+
+.text-center{
+	font-size: 3.8em;
+}
+
+.hero__text p {
+    font-size: 20px;
+    margin: 10px 0;
+    
+}
+
+.hero__lead {
+    font-size: 1.6em;
+    line-height: 1.4em;
+    margin: 20px 0 10px;
+}
+.btn{
+	font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-ghost:hover {
+    background-color: #90a4ae;
+    border-color: #90a4ae;
+}
+
+.btn-ghost {
+    background: transparent;
+    border: 2px solid #fff;
+    transition-duration: 80ms;
+    transition-timing-function: ease-in-out;
+}
