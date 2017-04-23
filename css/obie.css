@@ -1,0 +1,414 @@
+.navbar-transparent{
+	padding: 20px 0 27px 0;
+}
+
+.navbar-transparent a {
+    color: #555555;
+    font-weight: 500;
+}
+
+.navbar-brand img {
+	height: 70px;
+	width: auto;
+	margin-top: -10px;
+}
+
+.logo-container .brand {
+    color: #FFFFFF;
+    line-height: 30px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 50px;
+    font-size: 30px;
+    letter-spacing: -1px;
+    font-weight: 700;    
+}
+
+.logo-box {
+	position: relative;
+}
+
+.beta {
+    position: absolute;
+    border: solid 1px #555;
+    border-radius: 2px;
+    width: 52px;
+    bottom: -98px;
+    font-size: 9px;
+    text-align: center;
+    margin-left: 10px;
+    height: 18px;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.white h1, .h1 {
+    font-size: 52px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+    font-weight: 400;
+    margin: 30px 0 10px;
+}
+
+#hero {
+	position: relative;
+	background: url(../img/obie/obie-hero4.jpg);
+	background-position: -100px;
+}
+
+.description .slack-button {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    vertical-align: middle;
+    margin-top: 10px;
+    background: rgb(129, 177, 177);
+    padding: 8px 60px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 5px solid rgb(25, 117, 117);
+    border-radius: 1px;
+    transition: all 0.1s;
+    padding: 15px 45px;
+}
+
+.filter-gradient.white:after {
+    background: rgba(0, 0, 0, 0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#ffffff);
+}
+
+.filter-gradient:after {
+    background-size: 2000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    content: "";
+}
+
+.hero-p {
+	width: 60%;
+}
+
+.press-banner {
+    background-color: #f9f9f9; 
+    margin-top: 100px;  
+}
+
+.wrapper {
+    height: 100%!important;
+    width: 100%;
+    padding: 40px 150px 40px 150px!important;
+}
+
+.carousel-inner img {
+	padding-top: 20px;
+	
+	width: 100%;
+	height: 100%;
+}
+.press-banner h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    color: #70a8a8;
+    text-align: center;
+    margin-top: 0;
+    font-weight: 300;
+    text-shadow: none!important;
+}
+
+.press-banner img {
+    padding: 20px 25px 0px 25px;
+    height: 55px;
+    vertical-align: middle;
+    border: 0;
+}
+
+.press-banner ul {
+    list-style-type: none;
+    text-align: center;
+    -webkit-padding-start: 0;
+}
+
+.press-banner li {
+    display: inline-block;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.lato-clean {
+    color: #70a8a8;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 300;
+    font-family: 'lato','sans serif';
+    text-transform: none;
+}
+
+.header-text {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333;
+    margin: 10px 0 10px;
+    font-size: 22px;
+    position: relative;
+    line-height: 24px;
+}
+
+.landing-page .section-presentation {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 60px 0px 60px 0px;
+}
+
+.header-text {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333;
+    margin: 10px 0 10px;
+    font-size: 22px;
+    position: relative;
+    line-height: 24px;
+}
+
+.tools-section {
+    padding: 20px 300px 40px 300px!important;
+    background-color: #fff;
+}
+
+.flows-description {
+    padding-top: 30px;
+}
+
+.flows-description .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.landing-page p {
+    margin-top: 30px;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.green-header {
+    color: #ffffff;
+    text-align: center;
+}
+
+.green-section {
+    background-color: #70a8a8!important;
+    color: #ffffff;
+    text-align: center;
+    background-image: url(../img/obie/tasytt-pattern.png);
+    background-position: repeat;
+}
+
+.section {
+    /* padding: 30px 0; */
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.slack-button-white {
+    padding: 15px 60px;
+    position: relative;
+    color: #70a8a8;
+    font-size: 18px;
+    font-weight: 700;
+    vertical-align: middle;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border-radius: 1px;
+    transition: all 0.1s;
+    border: none;
+}
+
+.video-shiz {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.landing-page p {
+    margin-top: 50px;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.landing-page .section-features {
+    padding: 0;
+    text-align: center;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+svg {
+    fill: #70a8a8;
+    width: 120px;
+    height: auto;
+}
+
+.landing-page .section-features .card p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #777;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+.img-circle {
+	width: 100px;
+	height: 100px;
+	border: 0;
+	border-radius: 50%;
+}
+
+.info {
+	text-align: center;
+}
+
+.landing-page .full-background .info {
+    position: relative;
+    z-index: 20;
+    padding: 80px 0;
+}
+
+.landing-page .full-background .info h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.landing-page .full-background .slack-button {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    vertical-align: middle;
+    margin-top: 10px;
+    background: rgb(129, 177, 177);
+    padding: 8px 60px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 5px solid rgb(25, 117, 117);
+    border-radius: 1px;
+    transition: all 0.1s;
+    padding: 15px 45px;
+}
+
+.landing-page .section-contact {
+    position: relative;
+    padding: 80px 0 80px;
+    background-color: rgba(238, 238, 238, 0.7);
+}
+
+.slack-button-white:hover {
+    background-color: #197575!important;
+    color: #ffffff!important;
+    border: none;
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+     border-left: 0px solid #eee; 
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa:before {
+    vertical-align: middle;
+}
+
+.btn-lg {
+    font-size: 14px;
+    padding: 14px 10px;
+}
+
+.landing-page p {
+    margin-top: 50px;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn {
+    border-width: 1px;
+    background-color: transparent;
+    font-weight: 400;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    padding: 8px 16px;
+    border-color: #888888;
+    color: #888888;
+}
+
+.btn {
+    border-radius: 2px!important;
+}
+
+.landing-page .footer {
+    padding: 20px 0;
+}
+
+.footer {
+    background-color: white;
+    line-height: 20px;
+}
+
+.footer nav.pull-left, .footer:not(.footer-big) nav > ul li, .pull-right {
+    float: none !important;
+}
+
+.footer .copyright {
+    color: #777777;
+    padding: 10px 15px;
+    margin: 15px 3px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.tawk-tab {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: #C6524F;
+    cursor: pointer;
+    z-index: 990000!important;
+    color: #ffffff;
+}
